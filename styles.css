@@ -1,0 +1,24 @@
+h1 {
+    background-color : red;
+    text-align: center;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+}
+.container p {
+    flex: 1; /* Each paragraph takes up 50% of the container */
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+.left {
+    background-color: lightblue;
+}
+.right {
+    background-color: lightgreen;
+}
