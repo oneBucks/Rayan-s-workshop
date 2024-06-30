@@ -3,22 +3,27 @@ h1 {
     text-align: center;
 }
 body, html {
-    height: 100%;
-    margin: 0;
+    body, html {
+        width: 80%;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
 }
 .container {
     display: flex;
     height: 100vh; /* Full viewport height */
+    position: relative;
+    background-image: url(img/peace.jpg);
+    background-size: contain;
+    background-position: center;
+    padding: 20px;
+    color: white;
 }
 .container p {
-    flex: 1; /* Each paragraph takes up 50% of the container */
+    flex: 1;
     margin: 0;
     padding: 20px;
-    box-sizing: border-box; /* Include padding in the element's total width and height */
-}
-.left {
-    background-color: lightblue;
-}
-.right {
-    background-color: lightgreen;
+    box-sizing: border-box;
 }
