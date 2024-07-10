@@ -1,8 +1,17 @@
 h1 {
-    /* display: inline-block; */
     text-align: center;
 }
 
+#header-aling {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 40%;
+}
+#header-button {
+    display: inline-block;
+    margin-left: 20%;
+    /* justify-content: right; */
+}
 hr {
     width: 90%;
 }
