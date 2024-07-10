@@ -89,19 +89,18 @@
         <span class="dot" onclick="currentSlide(3)"></span>
     </div>
     <hr>
-    <div>
-        <h1>Weather Application</h1>
-
-        <input type="text" id="location">
-        <button id="search">Search</button>
-        <div id="weather"></div>
-
-    </div>
-    <div>
-        <button onclick="getLocation()">Try It</button>
-
-        <p id="demo"></p>
-    </div>
+    <div class="container">
+        <button id="getLocationBtn" class="star-button">
+          <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="5 20 12 14 19 20 16 12 23 9 14 9 12 2 10 9 1 9 8 12 5 20"/>
+          </svg>
+          <!-- <span class="button-text">Info</span> -->
+          <!-- <button id="getLocationBtn">Get Weather for Current Location</button> -->
+          <div id="demo"></div>
+          <div id="weatherInfo"></div>
+          <div id="weatherInfo"></div>
+        </button>
+      </div>
 
     
 </body>

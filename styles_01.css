@@ -127,3 +127,51 @@ img {
         opacity: 1
     }
 }
+
+/* -------------------------------- */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .star-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #007BFF;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .star-button:hover {
+    background-color: #007BFF;
+    transform: scale(1.1);
+  }
+  
+  .star {
+    width: 24px;
+    height: 24px;
+    color: #007BFF;
+    transition: color 0.3s;
+  }
+  
+  .star-button:hover .star {
+    color: white;
+  }
+  
+  .button-text {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #007BFF;
+    transition: color 0.3s;
+  }
+  
+  .star-button:hover .button-text {
+    color: white;
+  }
+  
