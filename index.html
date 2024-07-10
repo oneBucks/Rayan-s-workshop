@@ -6,7 +6,7 @@
     <title>The truth about me</title>
     <link rel='stylesheet' type='text/css' media='screen' href='styles_01.css'>
     <link rel="icon" type="image/x-icon" href="icons/cool-sunglasses.svg">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -88,6 +88,22 @@
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
     </div>
+    <hr>
+    <div>
+        <h1>Weather Application</h1>
+
+        <input type="text" id="location">
+        <button id="search">Search</button>
+        <div id="weather"></div>
+
+    </div>
+    <div>
+        <button onclick="getLocation()">Try It</button>
+
+        <p id="demo"></p>
+    </div>
+
+    
 </body>
 
 </html>
