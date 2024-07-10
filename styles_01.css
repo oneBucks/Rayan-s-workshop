@@ -1,4 +1,5 @@
 h1 {
+    /* display: inline-block; */
     text-align: center;
 }
 
@@ -129,6 +130,11 @@ img {
 }
 
 /* -------------------------------- */
+/* #header-aling {
+    display: inline-block;
+
+} */
+
 .container {
     display: flex;
     justify-content: center;
@@ -144,7 +150,7 @@ img {
     border: 2px solid #007BFF;
     border-radius: 50%;
     cursor: pointer;
-    position: relative;
+    position: relative; 
     transition: background-color 0.3s, transform 0.3s;
   }
   
